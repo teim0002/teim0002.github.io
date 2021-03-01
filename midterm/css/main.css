@@ -1,150 +1,149 @@
 body{ 
-    background: rgb(171, 212, 207)
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    }
+background: rgb(171, 212, 207);
+font-family: Arial, Helvetica, sans-serif;
+margin: 0px;
+}
 
-    h1{
-        font-size: 26px;
-        margin-top: 2em;
-        margin-bottom: 0.5em;
-    }
+h1{
+    font-size: 26px;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
 
-    main{
-        padding: 10px;
-    }
+main{
+    padding: 10px;
+}
 
-    img{
-        width: 100%;
-    }
+img{
+    width: 100%;
+}
 
-    p{
-        font-size: 14px;
-        text-align: justify;
-        text-justify: inter-word;
-    }
+p{
+    font-size: 14px;
+    text-align: justify;
+    text-justify: inter-word;
+}
 
-    .container{
-        max-width: 900px;
-        margin: 0 auto;
-        background-color:rgb(213, 233, 21);
-    }
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    background-color:rgb(21 175 233);
+}
 
-    .images{
-        float: left;
-        margin-right: 10-x;
-        margin-bottom: 10px;
-    }
+.images{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
 
-    nav ul{
-        list-style: none;
-        margin: auto;
-        padding: 0px;
-    }
+nav ul{
+    list-style: none;
+    margin: auto;
+    padding: 0px;
+}
 
-    nav ul li{
-        display: inline-block;
-        width: 33%;
-        box-sizing: border-box;
-        border-right: 1px solid black;
-        font-size: 20px;
-        text-align: center;
-    }
+nav ul li{
+    display: inline-block;
+    width: 33%;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+}
 
-    nav ul li :last-child{
-        border:none;
-    }
+nav ul li :last-child{
+    border:none;
+}
 
 
 
-    a:link{
-        text-decoration: none;
-        color: black;
-    }
+a:link{
+    text-decoration: none;
+    color: black;
+}
 
-    a:visited
-        text-decoration:none;
-        color:rgb(0, 0, 0)
-    }
+a:visited{
+    text-decoration:none;
+    color:rgb(0, 0, 0)
+}
 
-    a:hover{
-        text-decoration: underline;
+a:hover{
+    text-decoration: underline;
 
-    }
+}
 
-    a:active{
-        text-decoration: underline;
-    }
+a:active{
+    text-decoration: underline;
+}
 
-    .information{
-        background-color: rgb(213, 233, 231);
-        width: initial;
-        border: 1px solid black;
-        padding: 30px 20px;
-        margin: 0.1em;
+.information{
+    background-color: rgb(213, 233, 231);
+    width: initial;
+    border: 1px solid black;
+    padding: 30px 20px;
+    margin: 0.1em;
 
-    }
+}
 
-    #Yname {width: 100%;
-        margin-top: 0.5em;
-    }
+#yname {width: 100%;
+    margin-top: 0.5em;
+}
 
-    #email{
-        width: 100%;
-        margin-top : 0.5em;
-    }
-  
-    #message{
-        height: 90px; width: 100%;
-        margin-top: 0.5em;
-    }
+#email{
+    width: 100%;
+    margin-top : 0.5em;
+}
 
-    #wrapper {
-        height: 100px;
-    }
+#message{
+    height: 90px; width: 100%;
+    margin-top: 0.5em;
+}
 
-    #radio{
-        font-size: 12px;
-    }
+#wrapper {
+    height: 100px;
+}
 
-    ul.demo{
-        margin: 0;
-        padding: 1em;
-    }
+#radio{
+    font-size: 12px;
+}
 
-    .send{
-        background-color: rgb(213, 233, 231);
-        font-size: 8px;
-        height: 30px;
-        width: 40px;
-        border:1px solid black;
-    }
+ul.demo{
+    margin: 0;
+    padding: 1em;
+}
 
-    .mainimage{
-        position: relative;
-        text-align: center;
-        color: white;
-        width: 100%;
-    }
+.send{
+    background-color: rgb(213, 233, 231);
+    font-size: 8px;
+    height: 30px;
+    width: 40px;
+    border:1px solid black;
+}
 
-    /* Centered text*/
-    .centered{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 100%;
-        transform: translate(-50%, 50%);
-        font-size: 50px;
-    }
+.mainimage{
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
 
-    .footer{
-        font-size: 12px;
-        position: relative;
-        right: 3em;
-        top: 0.5em;
-        width: 100%;
-        color: black;
-        text-align: right;
-        padding-bottom: 30px;
-    }
-    
+/* Centered text*/
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, 50%);
+    font-size: 50px;
+}
+
+.footer{
+    font-size: 12px;
+    position: relative;
+    right: 3em;
+    top: 0.5em;
+    width: 100%;
+    color: black;
+    text-align: right;
+    padding-bottom: 30px;
+}
