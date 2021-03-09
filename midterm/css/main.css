@@ -1,7 +1,7 @@
 body{ 
-background: rgb(171, 212, 207);
-font-family: Arial, Helvetica, sans-serif;
-margin: 0px;
+    background: rgb(171, 212, 207);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 h1{
@@ -51,10 +51,10 @@ nav ul li{
     text-align: center;
 }
 
+/* the rightmost menu item sould not have a border */
 nav ul li :last-child{
     border:none;
 }
-
 
 
 a:link{
@@ -69,20 +69,19 @@ a:visited{
 
 a:hover{
     text-decoration: underline;
-
 }
 
 a:active{
     text-decoration: underline;
 }
 
+/* Styling fot the form */
 .information{
     background-color: rgb(213, 233, 231);
     width: initial;
     border: 1px solid black;
     padding: 30px 20px;
     margin: 0.1em;
-
 }
 
 #yname {width: 100%;
@@ -95,7 +94,8 @@ a:active{
 }
 
 #message{
-    height: 90px; width: 100%;
+    height: 90px; 
+    width: 100%;
     margin-top: 0.5em;
 }
 
