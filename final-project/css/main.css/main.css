@@ -1,453 +1,423 @@
-Skip to content
-Why GitHub? 
-Team
-Enterprise
-Explore 
-Marketplace
-Pricing 
-Search
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
 
-Sign in
-Sign up
-mehr0028
-/
-mehr00281.github.io
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-mehr00281.github.io/final-project/css/main.css
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
 
-user.name:Mozhdeh Mehrafarin Edit
-Latest commit 90ad158 on Dec 18, 2020
- History
- 0 contributors
-949 lines (866 sloc)  38.6 KB
-  
-                                html,
-                                body,
-                                div,
-                                span,
-                                applet,
-                                object,
-                                iframe,
-                                h1,
-                                h2,
-                                h3,
-                                h4,
-                                h5,
-                                h6,
-                                p,
-                                blockquote,
-                                pre,
-                                a,
-                                abbr,
-                                acronym,
-                                address,
-                                big,
-                                cite,
-                                code,
-                                del,
-                                dfn,
-                                em,
-                                img,
-                                ins,
-                                kbd,
-                                q,
-                                s,
-                                samp,
-                                small,
-                                strike,
-                                strong,
-                                sub,
-                                sup,
-                                tt,
-                                var,
-                                b,
-                                u,
-                                i,
-                                center,
-                                dl,
-                                dt,
-                                dd,
-                                ol,
-                                ul,
-                                li,
-                                fieldset,
-                                form,
-                                label,
-                                legend,
-                                table,
-                                caption,
-                                tbody,
-                                tfoot,
-                                thead,
-                                tr,
-                                th,
-                                td,
-                                article,
-                                aside,
-                                canvas,
-                                details,
-                                embed,
-                                figure,
-                                figcaption,
-                                footer,
-                                header,
-                                hgroup,
-                                menu,
-                                nav,
-                                output,
-                                ruby,
-                                section,
-                                summary,
-                                time,
-                                mark,
-                                audio,
-                                video {
-                                    margin: 0;
-                                    padding: 0;
-                                    border: 0;
-                                    font-size: 100%;
-                                    font: inherit;
-                                    vertical-align: baseline;
-                                }
-                                /* HTML5 display-role reset for older browsers */
-                                
-                                article,
-                                aside,
-                                details,
-                                figcaption,
-                                figure,
-                                footer,
-                                header,
-                                hgroup,
-                                menu,
-                                nav,
-                                section {
-                                    display: block;
-                                }
-                                
-                                body {
-                                    line-height: 1;
-                                }
-                                
-                                ol,
-                                ul {
-                                    list-style: none;
-                                }
-                                
-                                blockquote,
-                                q {
-                                    quotes: none;
-                                }
-                                
-                                blockquote:before,
-                                blockquote:after,
-                                q:before,
-                                q:after {
-                                    content: '';
-                                    content: none;
-                                }
-                                
-                                table {
-                                    border-collapse: collapse;
-                                    border-spacing: 0;
-                                }
-                                /* ********************************************************************************* */
-                                /* ********************************************************************************* */
-                                
-                                html {
-                                    font-family: Arial, Arial, Helvetica, sans-serif;
-                                    font-size: 14px;
-                                }
-                                
-                                body {
-                                    background: lightgrey;
-                                    margin: 0;
-                                }
-                                
-                                main {
-                                    padding: 0;
-                                    background: white;
-                                }
-                                
-                                img {
-                                    width: 100%;
-                                }
-                                
-                                .firs-image {
-                                    width: 100%;
-                                }
-                                
-                                h1 {
-                                    font-size: 60px;
-                                    margin-left: 10px;
-                                }
-                                
-                                p {
-                                    margin-left: 10px;
-                                    margin-right: 10px;
-                                    margin-right: 10px;
-                                    font-size: 12px;
-                                }
-                                
-                                a {
-                                    text-decoration: none;
-                                }
-                                
-                                .welcome i {
-                                    color: black;
-                                    margin-left: 10px;
-                                    margin-top: 5px;
-                                }
-                                /* .welcome{
-        position: absolute;
-        top: 60%;
-        left: 45%;
-        right: 50%;
-        width: 70%;
-        transform: translate(-45%, 20%);
-        color: white;
-        background-color: rgba(255, 255, 255, 0.5);
-      }  */
-                                
-                                .intro {
-                                    background: url(../images/main-banner.jpg) center no-repeat;
-                                    background-size: cover;
-                                    padding: 2em;
-                                }
-                                
-                                .intro h1 {
-                                    display: flex;
-                                }
-                                
-                                .rapper {
-                                    background-color: rgb(32, 31, 31, 0.582);
-                                    /* padding: 50px; */
-                                    color: white;
-                                    padding: 2em;
-                                }
-                                
-                                .intro a {
-                                    display: inline-block;
-                                    background-color: #c78c06;
-                                    font-size: 20px;
-                                    padding: 30px;
-                                    border: black solid 1px;
-                                    color: black;
-                                    margin-top: 1em;
-                                }
-                                /* .welcome{
-        position: absolute;
-        max-width: 760px;
-        top: 20%;
-        margin-bottom: 10px;
-        background-color: rgb(32, 31, 31, 0.582);
-        width: 100%;
-        height: 70%;
-        text-align: left;
-        color: white;
-        
-      } */
-                                /* .intro{
-        position: relative;
-        max-width: 760px;
-        margin: 0 auto;
-      } */
-                                /* p{
-          text-align: justify;
-          text-justify: inter-word;
-        }
-        .container{
-          max-width: 1200px;
-          margin:0 auto;
-        }
-      
-        .button-bannerr{
-          position: relative;
-          background-color:#c78c06;
-          font-size: 20px;
-          padding: 30px;
-          border: black solid 1px;
-          color: black;
-          position: relative;
-          top: 10%;
-          left: 0%;
-        } */
-                                /*************** About Us  *****************/
-                                
-                                .about {
-                                    max-width: 1200px;
-                                    margin: 0 auto;
-                                    background-color: #ffe6ac;
-                                }
-                                
-                                .about h2 {
-                                    padding-top: 20px;
-                                }
-                                
-                                .about p {
-                                    margin-left: 0;
-                                }
-                                /*************** Our Services  *****************/
-                                
-                                .our-services,
-                                .our-team,
-                                .contact-us {
-                                    margin: 0 auto;
-                                    background-color: white;
-                                }
-                                
-                                .digital,
-                                .marketing,
-                                .video,
-                                .web,
-                                .print {
-                                    background-color: #ffe6ac;
-                                    margin-bottom: 20px;
-                                }
-                                /* mobile button */
-                                
-                                .button-margin {
-                                    padding: 1em;
-                                }
-                                /*************** Digital transformation  *****************/
-                                
-                                h2 {
-                                    font-size: 30px;
-                                    margin: 0 0 20px 20px;
-                                }
-                                
-                                .button-banner1,
-                                .button-banner2,
-                                .button-banner3,
-                                .button-banner4,
-                                .button-banner5 {
-                                    display: block;
-                                    background-color: black;
-                                    margin-left: 10px;
-                                    font-size: 20px;
-                                    padding: 30px;
-                                    border: black solid 1px;
-                                    color: white;
-                                }
-                                
-                                @media screen and (max-width: 760px) {
-                                    .button-banner1,
-                                    .button-banner2,
-                                    .button-banne .button-banner4,
-                                    .button-banner5 {
-                                        margin-top: 15px;
-                                        width: 42%;
-                                        /* font: normal normal normal 20px/1 'iconmonstr-iconic-font'; */
-                                    }
-                                }
-                                
-                                i {
-                                    color: white;
-                                    margin-left: 10px;
-                                    margin-top: 5px;
-                                }
-                                /*************** Contact Us  *****************/
-                                
-                                .contact-us h3 {
-                                    margin-left: 0;
-                                }
-                                /*************** Hours of operation  *****************/
-                                
-                                table,
-                                th,
-                                td {
-                                    border: black solid 1px;
-                                    border-collapse: collapse;
-                                }
-                                
-                                th,
-                                td {
-                                    text-align: left;
-                                    padding: 10px;
-                                    font-size: 12px;
-                                    font-weight: normal
-                                }
-                                
-                                table {
-                                    width: 100%
-                                }
-                                
-                                table th {
-                                    background: #ffe6ac;
-                                    text-align: center;
-                                }
-                                /***********************************************************
-                        Mobile 
-                **********************************************************/
-                                
-                                ul {
-                                    list-style: none;
-                                    padding-left: 0;
-                                    margin: 15px;
-                                    padding-top: 15px;
-                                }
-                                
-                                ul li {
-                                    width: 100%;
-                                    line-height: 200%;
-                                    float: left;
-                                }
-                                
-                                ul li a {
-                                    color: #c78c06;
-                                    padding-top: 10px;
-                                    padding-bottom: 10px;
-                                    text-align: center;
-                                    text-decoration: none;
-                                    display: flex;
-                                    flex-grow: 1;
-                                    flex-shrink: 1;
-                                    justify-content: center;
-                                    white-space: nowrap;
-                                }
-                                
-                                ul li a:hover {
-                                    background-color: #c78c06;
-                                    color: #222;
-                                }
-                                
-                                .container {
-                                    margin: 0 auto;
-                                    padding: 1em;
-                                }
-                                /* header */
-                                
-                                .mobile-logo {
-                                    max-width: 100px;
-                                }
-                                
-                                .desktop-logo {
-                                    display: none;
-                                }
-                                /*  */
-                                
-                                .banner {
-                                    height: 450px;
-                                }
-                                
-                                .logobackground {
-                                    background: #c78c06;
-                                    text-align: left;
-                                    width: 100%;
-                                }
-                                
-                                header {
-                                    background: #222;
-                                    text-align: center;
-                                }
-                                /* .masthead.current {                                          
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* ********************************************************************************* */
+/* ********************************************************************************* */
+
+html {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+body {
+    background: lightgrey;
+    margin: 0;
+}
+
+main {
+    padding: 0;
+    background: white;
+}
+
+img {
+    width: 100%;
+}
+
+.firs-image {
+    width: 100%;
+}
+
+h1 {
+    font-size: 60px;
+    margin-left: 10px;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.welcome i {
+    color: black;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+/* .welcome{
+position: absolute;
+top: 60%;
+left: 45%;
+right: 50%;
+width: 70%;
+transform: translate(-45%, 20%);
+color: white;
+background-color: rgba(255, 255, 255, 0.5);
+}  */
+
+.intro {
+    background: url(../images/main-banner.jpg) center no-repeat;
+    background-size: cover;
+    padding: 2em;
+}
+
+.intro h1 {
+    display: flex;
+}
+
+.rapper {
+    background-color: rgb(32, 31, 31, 0.582);
+    /* padding: 50px; */
+    color: white;
+    padding: 2em;
+}
+
+.intro a {
+    display: inline-block;
+    background-color: #c78c06;
+    font-size: 20px;
+    padding: 30px;
+    border: black solid 1px;
+    color: black;
+    margin-top: 1em;
+}
+/* .welcome{
+position: absolute;
+max-width: 760px;
+top: 20%;
+margin-bottom: 10px;
+background-color: rgb(32, 31, 31, 0.582);
+width: 100%;
+height: 70%;
+text-align: left;
+color: white;
+
+} */
+/* .intro{
+position: relative;
+max-width: 760px;
+margin: 0 auto;
+} */
+/* p{
+text-align: justify;
+text-justify: inter-word;
+}
+.container{
+max-width: 1200px;
+margin:0 auto;
+}
+
+.button-bannerr{
+position: relative;
+background-color:#c78c06;
+font-size: 20px;
+padding: 30px;
+border: black solid 1px;
+color: black;
+position: relative;
+top: 10%;
+left: 0%;
+} */
+/*************** About Us  *****************/
+
+.about {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffe6ac;
+}
+
+.about h2 {
+    padding-top: 20px;
+}
+
+.about p {
+    margin-left: 0;
+}
+/*************** Our Services  *****************/
+
+.our-services,
+.our-team,
+.contact-us {
+    margin: 0 auto;
+    background-color: white;
+}
+
+.digital,
+.marketing,
+.video,
+.web,
+.print {
+    background-color: #ffe6ac;
+    margin-bottom: 20px;
+}
+/* mobile button */
+
+.button-margin {
+    padding: 1em;
+}
+/*************** Digital transformation  *****************/
+
+h2 {
+    font-size: 30px;
+    margin: 0 0 20px 20px;
+}
+
+.button-banner1,
+.button-banner2,
+.button-banner3,
+.button-banner4,
+.button-banner5 {
+    display: block;
+    background-color: black;
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 30px;
+    border: black solid 1px;
+    color: white;
+}
+
+@media screen and (max-width: 760px) {
+    .button-banner1,
+    .button-banner2,
+    .button-banne .button-banner4,
+    .button-banner5 {
+        margin-top: 15px;
+        width: 42%;
+        /* font: normal normal normal 20px/1 'iconmonstr-iconic-font'; */
+    }
+}
+
+i {
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+/*************** Contact Us  *****************/
+
+.contact-us h3 {
+    margin-left: 0;
+}
+/*************** Hours of operation  *****************/
+
+table,
+th,
+td {
+    border: black solid 1px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: normal
+}
+
+table {
+    width: 100%
+}
+
+table th {
+    background: #ffe6ac;
+    text-align: center;
+}
+/***********************************************************
+Mobile 
+**********************************************************/
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 15px;
+    padding-top: 15px;
+}
+
+ul li {
+    width: 100%;
+    line-height: 200%;
+    float: left;
+}
+
+ul li a {
+    color: #c78c06;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+ul li a:hover {
+    background-color: #c78c06;
+    color: #222;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 1em;
+}
+/* header */
+
+.mobile-logo {
+    max-width: 100px;
+}
+
+.desktop-logo {
+    display: none;
+}
+/*  */
+
+.banner {
+    height: 450px;
+}
+
+.logobackground {
+    background: #c78c06;
+    text-align: left;
+    width: 100%;
+}
+
+header {
+    background: #222;
+    text-align: center;
+}
+/* .masthead.current {                                          
 max-width: 760px;
 width: 100%;
 background: #c78c06;
@@ -459,161 +429,167 @@ padding-top: 30px;
 padding-bottom: 10px;
 margin-right: 20px;
 text-align: center;
+
 } */
-                                /******************************************
-                                Search Bar 
-                ******************************************/
-                                
-                                form {
-                                    display: flex;
-                                    align-items: center;
-                                }
-                                
-                                .example button {
-                                    border: #c78c06 solid 1px;
-                                    background-color: #222;
-                                }
-                                
-                                form.example input[type=text] {
-                                    padding: 5px;
-                                    font-size: 17px;
-                                    border: grey solid 1px;
-                                    float: left;
-                                    width: 88%;
-                                    background: #f1f1f1;
-                                }
-                                /* form.example button {                                           
-  float: right;
-  width: 7%;
-  margin-right: 3%;
-  padding-left: 1px;
-  padding-left: 1px;
-  background: #222;
-  color: #c78c06;
-  font-size: 10px;
-  border: 1px solid #c78c06;
-  cursor: pointer;
-} */
-                                
-                                form.example button:hover {
-                                    background: #c78c06;
-                                }
-                                
-                                form.example::after {
-                                    content: "";
-                                    clear: both;
-                                    display: table;
-                                }
-                                
-                                .im-magnifier {
-                                    color: #c78c06;
-                                    padding: 10px;
-                                }
-                                /* .topnav .search-container {                                            
-  float: right;
-}
-.nav-list input[type=text] {
-  padding: 13px;
-  margin-left: 0px;
-  width: 650px;
-  margin-top: 8px;
-  font-size: 13px;
-  border: none;
-}
-.nav-list .search-container button {
-  float: right;
-  padding: 1px 3px 3px 0px;
-  margin-top: 8px;
-  margin-right: 16px;
-  margin-left: 0px;
-  background: #222;
-  border: 1px solid #c78c06;
-  font-size: 17px;
-  cursor: pointer;
-  
-}
-.nav-list .search-container button:hover {
-  background: #c78c06;
-} */
-                                /******************************************
-              End Search Bar 
+/******************************************
+Search Bar 
 ******************************************/
-                                /* 
-button .im-magnifier{
-  width:50%;
-  margin: 0px;
-  padding: 2px;
-  background: #222;
-  color: #c78c06;
-  border: 1px solid #c78c06;
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+.example button {
+    border: #c78c06 solid 1px;
+    background-color: #222;
+}
+
+form.example input[type=text] {
+    padding: 5px;
+    font-size: 17px;
+    border: grey solid 1px;
+    float: left;
+    width: 88%;
+    background: #f1f1f1;
+}
+/* form.example button {                                           
+
+float: right;
+width: 7%;
+margin-right: 3%;
+padding-left: 1px;
+padding-left: 1px;
+background: #222;
+color: #c78c06;
+font-size: 10px;
+border: 1px solid #c78c06;
+cursor: pointer;
 } */
-                                /*************** Digital transformation  *****************/
-                                
-                                .information {
-                                    background-color: white;
-                                    width: initial;
-                                    margin: 0.1em;
-                                }
-                                
-                                #Yname {
-                                    width: 100%;
-                                    margin-top: 0.5em;
-                                }
-                                
-                                #email {
-                                    width: 100%;
-                                    margin-top: 0.5em;
-                                }
-                                
-                                #message {
-                                    height: 90px;
-                                    width: 100%;
-                                    margin-top: 0.5em;
-                                }
-                                
-                                .send {
-                                    background-color: black;
-                                    color: #c78c06;
-                                    font-size: 14px;
-                                    height: 30px;
-                                    font-weight: lighter;
-                                    width: 60px;
-                                    border: #222 solid 1px;
-                                }
-                                /* --------------------------
-             Our Vision                
-    ---------------------------- */
-                                /* .paper-boat{
- width: 100%; 
+
+form.example button:hover {
+    background: #c78c06;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.im-magnifier {
+    color: #c78c06;
+    padding: 10px;
+}
+/* .topnav .search-container {                                            
+float: right;
+}
+
+.nav-list input[type=text] {
+padding: 13px;
+margin-left: 0px;
+width: 650px;
+margin-top: 8px;
+font-size: 13px;
+border: none;
+}
+
+.nav-list .search-container button {
+float: right;
+padding: 1px 3px 3px 0px;
+margin-top: 8px;
+margin-right: 16px;
+margin-left: 0px;
+background: #222;
+border: 1px solid #c78c06;
+font-size: 17px;
+cursor: pointer;
+
+}
+
+.nav-list .search-container button:hover {
+background: #c78c06;
+} */
+/******************************************
+End Search Bar 
+******************************************/
+/* 
+button .im-magnifier{
+width:50%;
+margin: 0px;
+padding: 2px;
+background: #222;
+color: #c78c06;
+border: 1px solid #c78c06;
+
+} */
+/*************** Digital transformation  *****************/
+
+.information {
+    background-color: white;
+    width: initial;
+    margin: 0.1em;
+}
+
+#Yname {
+    width: 100%;
+    margin-top: 0.5em;
+}
+
+#email {
+    width: 100%;
+    margin-top: 0.5em;
+}
+
+#message {
+    height: 90px;
+    width: 100%;
+    margin-top: 0.5em;
+}
+
+.send {
+    background-color: black;
+    color: #c78c06;
+    font-size: 14px;
+    height: 30px;
+    font-weight: lighter;
+    width: 60px;
+    border: #222 solid 1px;
+}
+/* --------------------------
+Our Vision                
+---------------------------- */
+/* .paper-boat{
+width: 100%; 
 height: 300px;
 object-fit: cover;
 } */
-                                
-                                .our-vision {
-                                    background: url(../images/vision.jpg) center no-repeat;
-                                    background-size: cover;
-                                    height: 20rem;
-                                    padding: 2em;
-                                    padding-left: 0em;
-                                    padding-right: 0em;
-                                }
-                                
-                                .our-vision h2 {
-                                    display: flex;
-                                }
-                                
-                                .button-banner6 {
-                                    display: flex;
-                                    background-color: rgb(59, 58, 58, 0.692);
-                                    font-size: 20px;
-                                    padding: 30px;
-                                    border: #c78c06 solid 1px;
-                                    margin: 0;
-                                    margin-left: 10px;
-                                    color: white;
-                                    position: relative;
-                                }
-                                /* .button-banner6{
+
+.our-vision {
+    background: url(../images/vision.jpg) center no-repeat;
+    background-size: cover;
+    height: 20rem;
+    padding: 2em;
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+.our-vision h2 {
+    display: flex;
+}
+
+.button-banner6 {
+    display: flex;
+    background-color: rgb(59, 58, 58, 0.692);
+    font-size: 20px;
+    padding: 30px;
+    border: #c78c06 solid 1px;
+    margin: 0;
+    margin-left: 10px;
+    color: white;
+    position: relative;
+}
+/* .button-banner6{
 position: relative;
 position: relative;
 background-color: rgba(59, 58, 58, 0.692);
@@ -627,35 +603,35 @@ position: relative;
 top: -30%;
 left: 0%;
 } */
-                                /* .our-vision{
+/* .our-vision{
 max-width: 760px;
 text-align: left;
 color: white;
 } */
-                                
-                                .our-vision {
-                                    position: relative;
-                                }
-                                
-                                .our-visio i {
-                                    position: absolute;
-                                    bottom: 8px;
-                                    left: 16px;
-                                }
-                                
-                                .vision-info {
-                                    position: absolute;
-                                    top: 2em;
-                                    /* margin-left: 20px; */
-                                }
-                                
-                                .our-vision h2 {
-                                    margin: 20px;
-                                    color: white;
-                                    margin-bottom: 30px;
-                                }
-                                /* how to put text top of backgroudn */
-                                /* .our-vision h2{
+
+.our-vision {
+    position: relative;
+}
+
+.our-visio i {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.vision-info {
+    position: absolute;
+    top: 2em;
+    /* margin-left: 20px; */
+}
+
+.our-vision h2 {
+    margin: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+/* how to put text top of backgroudn */
+/* .our-vision h2{
 position: relative;
 bottom: -100px;
 right: 10px;
@@ -664,322 +640,310 @@ color: white;
 padding-left: 20px;
 padding-right: 20px;
 } */
-                                
-                                .our-vision p {
-                                    color: white;
-                                    margin-bottom: 30px;
-                                    line-height: 1.4;
-                                }
-                                
-                                .our-vision a {
-                                    color: white;
-                                }
-                                /* .our-vision{
+
+.our-vision p {
+    color: white;
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+
+.our-vision a {
+    color: white;
+}
+/* .our-vision{
 margin-top: 0px;
 } */
-                                /* --------------------------
-            Our Team                 
- ---------------------------- */
-                                
-                                .john-info,
-                                .bob-info {
-                                    background-color: #ffe6ac;
-                                }
-                                
-                                h3 {
-                                    font-size: 20px;
-                                    margin-top: 10px;
-                                    margin-bottom: 10px;
-                                    font-weight: bold;
-                                }
-                                
-                                label {
-                                    font-size: 12px;
-                                }
-                                
-                                h3,
-                                h4 {
-                                    margin-left: 10px;
-                                }
-                                
-                                h4 {
-                                    border-width: 0 0 1px;
-                                    border-style: solid;
-                                    border-bottom-color: #c78c06;
-                                    border-bottom-width: 2px;
-                                    margin-left: 10px;
-                                    font-weight: bold;
-                                    position: relative;
-                                    width: 97%;
-                                    /* text-decoration: underline;
-   text-decoration-color: #c78c06;
-   text-decoration-style: solid; */
-                                    font-size: 12px;
-                                }
-                                
-                                p {
-                                    font-size: 11px;
-                                    margin-top: 10px;
-                                    line-height: 1.4;
-                                }
-                                /* --------------------------
-          Location
- ---------------------------- */
-                                
-                                iframe {
-                                    width: 100%;
-                                    margin: 0 auto;
-                                }
-                                /* --------------------------
-             Footer
- ---------------------------- */
-                                
-                                .footer {
-                                    margin: 0 auto;
-                                    background-color: #222;
-                                    color: #c78c06;
-                                    padding-top: 20px;
-                                    padding-bottom: 20px;
-                                    font-size: 12px;
-                                }
-                                /* --------------------------
-             Desktop
- ---------------------------- */
-                                
-                                @media screen and (min-width: 760px) {
-                                    html {
-                                        font-size: 16px;
-                                    }
-                                    .mobile-logo {
-                                        display: none;
-                                    }
-                                    .desktop-logo {
-                                        display: inline-block;
-                                        height: 70px;
-                                        width: 70px;
-                                    }
-                                    /* Navigation */
-                                    .nav-list {
-                                        display: flex;
-                                        align-items: center;
-                                    }
-                                    .nav-list li {
-                                        flex: 1;
-                                        border: none;
-                                    }
-                                    .nav-list li:last-child {
-                                        flex-basis: 150px;
-                                    }
-                                    /* --------------------------
-              Edit
-    ---------------------------- */
-                                    /* .nav-list{
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    } */
-                                    .main-nav {
-                                        padding-left: 10px;
-                                        padding-right: 10px;
-                                    }
-                                    /* --------------------------
-                Edit
-    ---------------------------- */
-                                    .banner {
-                                        height: 0px;
-                                    }
-                                    .container ul {
-                                        padding: 0em;
-                                    }
-                                    /* *************************************** */
-                                    /* the side of the header */
-                                    .masthead {
-                                        height: 150px;
-                                    }
-                                    ul li a {
-                                        padding: 24.5px;
-                                    }
-                                    .container {
-                                        max-width: 1200px;
-                                        margin: 0 auto;
-                                    }
-                                    .about-us {
-                                        width: 100%;
-                                        display: grid;
-                                        grid-template-columns: repeat(2, 1fr);
-                                        column-gap: 1em;
-                                    }
-                                    /* button */
-                                    .button-banner1,
-                                    .button-banner2 {
-                                        text-align: center;
-                                        background-color: black;
-                                        margin: 4px 2px;
-                                        font-size: 20px;
-                                        padding: 1em;
-                                        border: black solid 1px;
-                                        color: white;
-                                    }
-                                    .button-banner3,
-                                    .button-banner4,
-                                    .button-banner5 {
-                                        text-align: center;
-                                        background-color: black;
-                                        margin: 4px 2px;
-                                        font-size: 20px;
-                                        padding: 1em;
-                                        border: black solid 1px;
-                                        color: white;
-                                    }
-                                    /* Our services */
-                                    .item1 {
-                                        grid-area: A;
-                                    }
-                                    .item2 {
-                                        grid-area: B;
-                                    }
-                                    .item3 {
-                                        grid-area: C;
-                                    }
-                                    .item4 {
-                                        grid-area: D;
-                                    }
-                                    .item5 {
-                                        grid-area: E;
-                                    }
-                                    .item5 {
-                                        grid-area: F;
-                                    }
-                                    .our-services1 {
-                                        display: grid;
-                                        grid-template-areas: "A A A A A A" "B B B C C C" "D D E E F F";
-                                        grid-template-columns: repeat(6, 1fr);
-                                        grid-column-gap: 0.5rem;
-                                    }
-                                    .A {
-                                        grid-area: A;
-                                    }
-                                    .B {
-                                        grid-area: B;
-                                    }
-                                    .C {
-                                        grid-area: C;
-                                    }
-                                    .D {
-                                        grid-area: D;
-                                    }
-                                    .E {
-                                        grid-area: E;
-                                    }
-                                    .F {
-                                        grid-area: F;
-                                    }
-                                    .our-team1 A {
-                                        grid-area: A;
-                                    }
-                                    /* .our-services1{                                               
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, auto);
-  grid-template-areas:
-      "head head"
-      "left right1"
-      "left right2";
-    gap: 1em;
+/* --------------------------
+Our Team                 
+---------------------------- */
+
+.john-info,
+.bob-info {
+    background-color: #ffe6ac;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+label {
+    font-size: 12px;
+}
+
+h3,
+h4 {
+    margin-left: 10px;
+}
+
+h4 {
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-bottom-color: #c78c06;
+    border-bottom-width: 2px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    width: 97%;
+    /* text-decoration: underline;
+text-decoration-color: #c78c06;
+text-decoration-style: solid; */
+    font-size: 12px;
+}
+
+p {
+    font-size: 11px;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+/* --------------------------
+Location
+---------------------------- */
+
+iframe {
+    width: 100%;
+    margin: 0 auto;
+}
+/* --------------------------
+Footer
+---------------------------- */
+
+.footer {
+    margin: 0 auto;
+    background-color: #222;
+    color: #c78c06;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+/* --------------------------
+Desktop
+---------------------------- */
+
+@media screen and (min-width: 760px) {
+    html {
+        font-size: 16px;
+    }
+    .mobile-logo {
+        display: none;
+    }
+    .desktop-logo {
+        display: inline-block;
+        height: 70px;
+        width: 70px;
+    }
+    /* Navigation */
+    .nav-list {
+        display: flex;
+        align-items: center;
+    }
+    .nav-list li {
+        flex: 1;
+        border: none;
+    }
+    .nav-list li:last-child {
+        flex-basis: 150px;
+    }
+    /* --------------------------
+Edit
+---------------------------- */
+    /* .nav-list{
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 5px;
+} */
+    .main-nav {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /* --------------------------
+Edit
+---------------------------- */
+    .banner {
+        height: 0px;
+    }
+    .container ul {
+        padding: 0em;
+    }
+    /* *************************************** */
+    /* the side of the header */
+    .masthead {
+        height: 150px;
+    }
+    ul li a {
+        padding: 24.5px;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .about-us {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1em;
+    }
+    /* button */
+    .button-banner1,
+    .button-banner2 {
+        text-align: center;
+        background-color: black;
+        margin: 4px 2px;
+        font-size: 20px;
+        padding: 1em;
+        border: black solid 1px;
+        color: white;
+    }
+    .button-banner3,
+    .button-banner4,
+    .button-banner5 {
+        text-align: center;
+        background-color: black;
+        margin: 4px 2px;
+        font-size: 20px;
+        padding: 1em;
+        border: black solid 1px;
+        color: white;
+    }
+    /* Our services */
+    .item1 {
+        grid-area: A;
+    }
+    .item2 {
+        grid-area: B;
+    }
+    .item3 {
+        grid-area: C;
+    }
+    .item4 {
+        grid-area: D;
+    }
+    .item5 {
+        grid-area: E;
+    }
+    .item5 {
+        grid-area: F;
+    }
+    .our-services1 {
+        display: grid;
+        grid-template-areas: "A A A A A A" "B B B C C C" "D D E E F F";
+        grid-template-columns: repeat(6, 1fr);
+        grid-column-gap: 0.5rem;
+    }
+    .A {
+        grid-area: A;
+    }
+    .B {
+        grid-area: B;
+    }
+    .C {
+        grid-area: C;
+    }
+    .D {
+        grid-area: D;
+    }
+    .E {
+        grid-area: E;
+    }
+    .F {
+        grid-area: F;
+    }
+    .our-team1 A {
+        grid-area: A;
+    }
+    /* .our-services1{                                               
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, auto);
+grid-template-areas:
+"head head"
+"left right1"
+"left right2";
+gap: 1em;
 }
 .our-services1 h2 {
-  grid-area: head;
+grid-area: head;
 }
+
 .our-services1  .block3{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
 } */
-                                    /* .our-services1 .center {
-  display: grid;
-  grid-template-columns:repeat(3, auto);
-  grid-template-areas:
-  "center center center"
-  column-gap: 1em;
+    /* .our-services1 .center {
+display: grid;
+grid-template-columns:repeat(3, auto);
+grid-template-areas:
+"center center center"
+column-gap: 1em;
 } */
-                                    .our-team1 {
-                                        display: grid;
-                                        grid-template-columns: repeat(2, 1fr);
-                                        grid-template-rows: repeat(3, auto);
-                                        grid-template-areas: "head head" "left1 right1" "left2 right2";
-                                    }
-                                    .john-info,
-                                    .bob-info {
-                                        margin: 0px;
-                                    }
-                                    .bob-info {
-                                        grid-area: left2;
-                                    }
-                                    .our-team1 h2 {
-                                        grid-area: head;
-                                    }
-                                    /* .contact-us1{                                               
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, auto);
-  grid-template-areas:
-    "head head"
-    "left right1"
-    "left left";
-    gap: 1em;
+    .our-team1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: "head head" "left1 right1" "left2 right2";
+    }
+    .john-info,
+    .bob-info {
+        margin: 0px;
+    }
+    .bob-info {
+        grid-area: left2;
+    }
+    .our-team1 h2 {
+        grid-area: head;
+    }
+    /* .contact-us1{                                               
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(3, auto);
+grid-template-areas:
+"head head"
+"left right1"
+"left left";
+gap: 1em;
 }
 .contact-us1 h2 {
-  grid-area: head;
+grid-area: head;
 } */
-                                    /* Our services */
-                                    .item1 {
-                                        grid-area: A;
-                                    }
-                                    .item2 {
-                                        grid-area: B;
-                                    }
-                                    .item3 {
-                                        grid-area: C;
-                                    }
-                                    .item4 {
-                                        grid-area: D;
-                                    }
-                                    .item5 {
-                                        grid-area: E;
-                                    }
-                                    .item5 {
-                                        grid-area: F;
-                                    }
-                                    /* Contact us */
-                                    .contact-us1 {
-                                        display: grid;
-                                        grid-template-areas: "G G G" "H H J" "M M M";
-                                        grid-column-gap: 1rem;
-                                    }
-                                    .G {
-                                        grid-area: G;
-                                    }
-                                    .H {
-                                        grid-area: H;
-                                    }
-                                    .J {
-                                        grid-area: J;
-                                        width: 100%;
-                                    }
-                                    .M {
-                                        grid-area: M;
-                                        background-color: white;
-                                    }
-                                }
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
+    /* Our services */
+    .item1 {
+        grid-area: A;
+    }
+    .item2 {
+        grid-area: B;
+    }
+    .item3 {
+        grid-area: C;
+    }
+    .item4 {
+        grid-area: D;
+    }
+    .item5 {
+        grid-area: E;
+    }
+    .item5 {
+        grid-area: F;
+    }
+    /* Contact us */
+    .contact-us1 {
+        display: grid;
+        grid-template-areas: "G G G" "H H J" "M M M";
+        grid-column-gap: 1rem;
+    }
+    .G {
+        grid-area: G;
+    }
+    .H {
+        grid-area: H;
+    }
+    .J {
+        grid-area: J;
+        width: 100%;
+    }
+    .M {
+        grid-area: M;
+        background-color: white;
+    }
+}
