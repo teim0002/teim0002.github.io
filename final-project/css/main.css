@@ -175,16 +175,7 @@ a {
     margin-left: 10px;
     margin-top: 5px;
 }
-/* .welcome{
-position: absolute;
-top: 60%;
-left: 45%;
-right: 50%;
-width: 70%;
-transform: translate(-45%, 20%);
-color: white;
-background-color: rgba(255, 255, 255, 0.5);
-}  */
+
 
 .intro {
     background: url(../images/main-banner.jpg) center no-repeat;
@@ -212,43 +203,7 @@ background-color: rgba(255, 255, 255, 0.5);
     color: black;
     margin-top: 1em;
 }
-/* .welcome{
-position: absolute;
-max-width: 760px;
-top: 20%;
-margin-bottom: 10px;
-background-color: rgb(32, 31, 31, 0.582);
-width: 100%;
-height: 70%;
-text-align: left;
-color: white;
 
-} */
-/* .intro{
-position: relative;
-max-width: 760px;
-margin: 0 auto;
-} */
-/* p{
-text-align: justify;
-text-justify: inter-word;
-}
-.container{
-max-width: 1200px;
-margin:0 auto;
-}
-
-.button-bannerr{
-position: relative;
-background-color:#c78c06;
-font-size: 20px;
-padding: 30px;
-border: black solid 1px;
-color: black;
-position: relative;
-top: 10%;
-left: 0%;
-} */
 /*************** About Us  *****************/
 
 .about {
@@ -417,20 +372,7 @@ header {
     background: #222;
     text-align: center;
 }
-/* .masthead.current {                                          
-max-width: 760px;
-width: 100%;
-background: #c78c06;
-color: #222;
-margin: 0px;
-padding-left: 360px;
-padding-right: 337px;
-padding-top: 30px;
-padding-bottom: 10px;
-margin-right: 20px;
-text-align: center;
 
-} */
 /******************************************
 Search Bar 
 ******************************************/
@@ -453,19 +395,7 @@ form.example input[type=text] {
     width: 88%;
     background: #f1f1f1;
 }
-/* form.example button {                                           
 
-float: right;
-width: 7%;
-margin-right: 3%;
-padding-left: 1px;
-padding-left: 1px;
-background: #222;
-color: #c78c06;
-font-size: 10px;
-border: 1px solid #c78c06;
-cursor: pointer;
-} */
 
 form.example button:hover {
     background: #c78c06;
@@ -481,48 +411,11 @@ form.example::after {
     color: #c78c06;
     padding: 10px;
 }
-/* .topnav .search-container {                                            
-float: right;
-}
 
-.nav-list input[type=text] {
-padding: 13px;
-margin-left: 0px;
-width: 650px;
-margin-top: 8px;
-font-size: 13px;
-border: none;
-}
-
-.nav-list .search-container button {
-float: right;
-padding: 1px 3px 3px 0px;
-margin-top: 8px;
-margin-right: 16px;
-margin-left: 0px;
-background: #222;
-border: 1px solid #c78c06;
-font-size: 17px;
-cursor: pointer;
-
-}
-
-.nav-list .search-container button:hover {
-background: #c78c06;
-} */
 /******************************************
 End Search Bar 
 ******************************************/
-/* 
-button .im-magnifier{
-width:50%;
-margin: 0px;
-padding: 2px;
-background: #222;
-color: #c78c06;
-border: 1px solid #c78c06;
 
-} */
 /*************** Digital transformation  *****************/
 
 .information {
@@ -559,11 +452,7 @@ border: 1px solid #c78c06;
 /* --------------------------
 Our Vision                
 ---------------------------- */
-/* .paper-boat{
-width: 100%; 
-height: 300px;
-object-fit: cover;
-} */
+
 
 .our-vision {
     background: url(../images/vision.jpg) center no-repeat;
@@ -589,25 +478,7 @@ object-fit: cover;
     color: white;
     position: relative;
 }
-/* .button-banner6{
-position: relative;
-position: relative;
-background-color: rgba(59, 58, 58, 0.692);
-font-size: 20px;
-padding: 30px;
-border: 1px solid #c78c06;
-margin: 0;
-margin-left: 10px;
-color: white;
-position: relative;
-top: -30%;
-left: 0%;
-} */
-/* .our-vision{
-max-width: 760px;
-text-align: left;
-color: white;
-} */
+
 
 .our-vision {
     position: relative;
@@ -630,16 +501,7 @@ color: white;
     color: white;
     margin-bottom: 30px;
 }
-/* how to put text top of backgroudn */
-/* .our-vision h2{
-position: relative;
-bottom: -100px;
-right: 10px;
-background-color: black;
-color: white;
-padding-left: 20px;
-padding-right: 20px;
-} */
+
 
 .our-vision p {
     color: white;
@@ -650,9 +512,7 @@ padding-right: 20px;
 .our-vision a {
     color: white;
 }
-/* .our-vision{
-margin-top: 0px;
-} */
+
 /* --------------------------
 Our Team                 
 ---------------------------- */
@@ -687,9 +547,6 @@ h4 {
     font-weight: bold;
     position: relative;
     width: 97%;
-    /* text-decoration: underline;
-text-decoration-color: #c78c06;
-text-decoration-style: solid; */
     font-size: 12px;
 }
 
@@ -749,11 +606,7 @@ Desktop
     /* --------------------------
 Edit
 ---------------------------- */
-    /* .nav-list{
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 5px;
-} */
+
     .main-nav {
         padding-left: 10px;
         padding-right: 10px;
@@ -853,31 +706,7 @@ Edit
     .our-team1 A {
         grid-area: A;
     }
-    /* .our-services1{                                               
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: repeat(3, auto);
-grid-template-areas:
-"head head"
-"left right1"
-"left right2";
-gap: 1em;
-}
-.our-services1 h2 {
-grid-area: head;
-}
 
-.our-services1  .block3{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-} */
-    /* .our-services1 .center {
-display: grid;
-grid-template-columns:repeat(3, auto);
-grid-template-areas:
-"center center center"
-column-gap: 1em;
-} */
     .our-team1 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -894,19 +723,7 @@ column-gap: 1em;
     .our-team1 h2 {
         grid-area: head;
     }
-    /* .contact-us1{                                               
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-template-rows: repeat(3, auto);
-grid-template-areas:
-"head head"
-"left right1"
-"left left";
-gap: 1em;
-}
-.contact-us1 h2 {
-grid-area: head;
-} */
+
     /* Our services */
     .item1 {
         grid-area: A;
